@@ -600,7 +600,7 @@ def doall(param, course_id, args, stdout=None):
         problem_check(param, course_id, args)
         show_answer_table(param, course_id, args)
         analyze_ora(param, course_id, args)
-        time_on_task(param, course_id, args, just_do_totals=True)
+        time_on_task(param, course_id, args)
         success = True
 
     except Exception as err:
